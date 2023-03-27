@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title> DRAGON TRAVELS </title>
+	 <meta name="viewport" width="device-width;initial-scale:1.0">
+	 <link rel="stylesheet" href="style.css">
+	 
+  </head>
+  <body>
+	 <nav id="nav">
+	    <div class="nav-divs"> 
+				<span class="nav-span" id="magic"> Dragon Travels </span> 
+				<span class="nav-span"> Home </span>
+		</div>
+		<div id="nav-search" class="nav-divs"> 
+		        <input id="search-input" id="search-input" type="text" placeholder="Search Notes">
+				<span id="search-btn"> Search </span>
+		</div>
+	 </nav>	
+	 
+	 <div id="display-alert"> </div>
+	 
+	 <h2 class="heading"> Welcome to Dragon Travels </h2>
+	 
+	 <div id="user-input-div">
+	  <form id="input-form">
+	    <div class="input-div">
+			<label for="name-input"> Enter user name* </label>
+			<input id="name-input" type="text" placeholder="Enter your name">
+			<div class="wrong-field"  id="wrong-name-input"> </div>
+		</div>	
+		<div class="input-div">
+			<label for="mail-input"> E-mail Address* </label>
+			<input id="mail-input" type="text" placeholder="Enter your email-id">
+			<div class="wrong-field"  id="wrong-mail-input"> </div>
+		</div>		
+         <div class="input-div">
+			<label for="selectCar-input"> Select your car </label>
+			<select id="selectCar-input">
+					<option> Omni </option>
+					<option> Maruti </option>
+					<option> Ford titanium </option>
+					<option> XUV 500 </option>
+			</select>
+		</div>	
+		<div class="input-div">
+			<label for="address-input"> Enter your Address </label>
+			<textarea id="address-input" rows="4" cols="97"> </textarea>
+		</div>	
+		<div class="input-div">
+			<label for="phone-input"> Enter your phone Number* </label>
+			<input id="phone-input" type="text">
+			<div class="wrong-field" id="wrong-phone-input"> </div>
+		</div>	
+		<div class="input-div">
+			<label for="msg-input"> Any other messages </label>
+			<textarea id="msg-input" rows="4" cols="97"> </textarea>
+		</div>	
+	 
+	    <input id="submit-btn" type="submit" value="Submit"> 
+	  <form>
+      	
+	 </div>
+	 
+  </body>
+  
+	<script src="srcipt.js"> </script>
+</html>
